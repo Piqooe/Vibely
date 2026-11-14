@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#121212">
-    <title>@hasSection('title') @yield('title') · Vibely @else Vibely – Music Streaming @endif</title>
+    <title>@hasSection('title') @yield('title') · MoSing @else MoSing – Music Streaming @endif</title>
 
     @fonts
     @vite(['resources/css/app.css', 'resources/js/app.js'])

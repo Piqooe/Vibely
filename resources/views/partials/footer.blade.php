@@ -18,7 +18,7 @@
         @endforeach
 
         <div class="ml-auto flex gap-3">
-            @foreach (['share-2' => 'Share', 'user' => 'Profile', 'music' => 'Vibely for Artists'] as $icon => $label)
+            @foreach (['share-2' => 'Share', 'user' => 'Profile', 'music' => 'MoSing for Artists'] as $icon => $label)
                 <a href="#" aria-label="{{ $label }}" class="flex size-10 items-center justify-center rounded-full bg-card text-white transition-colors hover:bg-card-hover">
                     <x-dynamic-component :component="'lucide-'.$icon" class="size-[18px]" />
                 </a>
@@ -26,5 +26,5 @@
         </div>
     </div>
     <div class="mt-6 h-px bg-border"></div>
-    <p class="mt-6 text-[13px] text-text-secondary">© {{ now()->year }} Vibely Music</p>
+    <p class="mt-6 text-[13px] text-text-secondary">© {{ now()->year }} MoSing Music</p>
 </footer>
