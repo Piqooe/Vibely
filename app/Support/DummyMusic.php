@@ -83,10 +83,10 @@ class DummyMusic
     public static function playlists(): Collection
     {
         return self::keyed([
-            ['Chill Vibes', 'Lo-fi beats and soft acoustic for slow evenings.', 'Vibely', 'horizon', 'violet', 42],
+            ['Chill Vibes', 'Lo-fi beats and soft acoustic for slow evenings.', 'MoSing', 'horizon', 'violet', 42],
             ['Focus Flow', 'Instrumental tracks to keep you in the zone.', 'Alya Putri', 'orb', 'green', 35],
             ['Indie Pagi', 'Fresh local indie to start your morning right.', 'Alya Putri', 'bands', 'pink', 28],
-            ['Late Night Drive', 'Synthwave and city pop for the open road.', 'Vibely', 'rings', 'teal', 50],
+            ['Late Night Drive', 'Synthwave and city pop for the open road.', 'MoSing', 'rings', 'teal', 50],
             ['Workout Energy', 'High-BPM bangers to push your limits.', 'Alya Putri', 'horizon', 'rose', 46],
             ['Lofi Study', 'Calm, steady beats for deep study sessions.', 'Alya Putri', 'orb', 'lime', 64],
         ], fn ($p, $i) => [
@@ -141,7 +141,7 @@ class DummyMusic
         ]);
 
         $newRelease = $albums['electric-bloom'];
-        $newRelease->description = "A neon-soaked journey through late-night synths and euphoric hooks. NOVA's sophomore record is out now — only on Vibely.";
+        $newRelease->description = "A neon-soaked journey through late-night synths and euphoric hooks. NOVA's sophomore record is out now — only on MoSing.";
 
         return [
             'user' => self::user(),
